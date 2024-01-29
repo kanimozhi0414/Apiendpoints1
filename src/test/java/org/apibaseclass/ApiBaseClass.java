@@ -44,7 +44,7 @@ public class ApiBaseClass
 	public static void responseBody(Response response) 
 	{
 		String asPrettyString = response.getBody().asPrettyString();
-		System.out.println("asPrettyString");
+		System.out.println(asPrettyString);
 	}
 	
 	public static void validationWithAssert(Response response,int expected) 
